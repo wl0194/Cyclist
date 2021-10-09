@@ -1,8 +1,11 @@
 # Project1-
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Proposal Guide
 
 
+=======
+>>>>>>> 7065d2c4b4d35811a8c25d9d358b519d157e0451
 ## Title
 Cyclist
 
@@ -12,7 +15,10 @@ As a user, I want to be able to search for local cycling trails in my local area
 
 
 ## APIs (Third-party)
+<<<<<<< HEAD
 # Map API  -->
+=======
+>>>>>>> 7065d2c4b4d35811a8c25d9d358b519d157e0451
 
  https://maps.googleapis.com/maps/api/directions/json?origin=Disneyland&destination=Universal+Studios+Hollywood&key=YOUR_API_KEY
 
@@ -22,13 +28,11 @@ As a user, I want to be able to search for local cycling trails in my local area
 
 ## List of Tasks or Acceptance Criteria
 
-
-
-## First Task for each member
-
-## What does the functioning prototype have in features for the first week?
-
 =======
+https://www.figma.com/file/QPsGPqZ5L9QPncrwSpzi56/Project-1---wireframe?node-id=0%3A1
+>>>>>>> 7065d2c4b4d35811a8c25d9d358b519d157e0451
+
+## List of Tasks or Acceptance Criteria
 WHEN I open the webpage
 THEN I am presented with an image that describes the purpose
 WHEN I click on the weather tab
@@ -42,4 +46,5 @@ THEN I am presented with the description of our purpose and why the users will f
 ## First Task for each member
 
 ## What does the functioning prototype have in features for the first week?
->>>>>>> a9c794153b886834f4c73916fb6a2364848ea064
+We can start focus on building html file and possibly css file.
+we will try to meet at least 2 sessions a week to work as a team.
