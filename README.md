@@ -6,19 +6,21 @@
 
 ## Description (1 paragraph)
 
-## APIs (Third-party)
-=======
 ## Title
 Cyclist
 ## Description (1 paragraph)
 
 ## APIs (Third-party)
->>>>>>> a9c794153b886834f4c73916fb6a2364848ea064
+# Map API  -->
 
+ https://maps.googleapis.com/maps/api/directions/json?origin=Disneyland&destination=Universal+Studios+Hollywood&key=YOUR_API_KEY
+
+# Weather API  -->
+ http://api.weatherbit.io/v2.0/current
 ## Wireframe or Design for the website
 
 ## List of Tasks or Acceptance Criteria
-<<<<<<< HEAD
+
 
 
 ## First Task for each member
