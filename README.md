@@ -7,12 +7,6 @@
 ## Description (1 paragraph)
 
 ## APIs (Third-party)
-<!-- Map API  -->
-
-https://maps.googleapis.com/maps/api/directions/json?origin=Disneyland&destination=Universal+Studios+Hollywood&key=YOUR_API_KEY
-
-<!-- Weather API  -->
-http://api.weatherbit.io/v2.0/current
 =======
 ## Title
 Cyclist
