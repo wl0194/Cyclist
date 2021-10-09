@@ -7,6 +7,8 @@ Cyclist
 
 ## Wireframe or Design for the website
 
+https://www.figma.com/file/QPsGPqZ5L9QPncrwSpzi56/Project-1---wireframe?node-id=0%3A1
+
 ## List of Tasks or Acceptance Criteria
 WHEN I open the webpage
 THEN I am presented with an image that describes the purpose
@@ -21,3 +23,5 @@ THEN I am presented with the description of our purpose and why the users will f
 ## First Task for each member
 
 ## What does the functioning prototype have in features for the first week?
+We can start focus on building html file and possibly css file.
+we will try to meet at least 2 sessions a week to work as a team.
