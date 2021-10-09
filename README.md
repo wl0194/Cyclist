@@ -2,13 +2,14 @@
 <<<<<<< HEAD
 # Proposal Guide
 
-## Title
-
-## Description (1 paragraph)
 
 ## Title
 Cyclist
+
 ## Description (1 paragraph)
+
+As a user, I want to be able to search for local cycling trails in my local area and check the weather so I can start my work out routine. Also, I want to look at exercise tip for every day stretching and healthily habits. 
+
 
 ## APIs (Third-party)
 # Map API  -->
