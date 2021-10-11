@@ -1,6 +1,11 @@
-## Description
- 
+# Proposal Guide
 
+## Title
+Cyclist
+
+## Description (1 paragraph)
+
+We want an app that will allow us to find local places to cycle. It will be able to check my location and show the local weather and information about cycling trails nearby. This allow me to save time planning my work out routine. There will also be a section offering motivational tips.
 
 ## APIs (Third-party)
 # Map API  -->
