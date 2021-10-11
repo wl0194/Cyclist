@@ -5,8 +5,7 @@ Cyclist
 
 ## Description (1 paragraph)
 
-As a user, I want to be able to search for local cycling trails in my local area and check the weather so I can start my work out routine. Also, I want to look at exercise tip for every day stretching and healthily habits. 
-
+We want an app that will allow us to find local places to cycle. It will be able to check my location and show the local weather and information about cycling trails nearby. This allow me to save time planning my work out routine. There will also be a section offering motivational tips.
 
 ## APIs (Third-party)
 # Map API  -->
