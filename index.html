@@ -39,13 +39,10 @@
                     <nav>
                         <ul class="flex">
                             <li class="mr-6">
-                                <a class="text-blue-500 hover:text-white" href="#">ABOUT</a>
+                                <a class="text-blue-500 hover:text-white" href="#weather">WEATHER</a>
                             </li>
                             <li class="mr-6">
-                                <a class="text-blue-500 hover:text-white" href="#">WEATHER</a>
-                            </li>
-                            <li class="mr-6">
-                                <a class="text-blue-500 hover:text-white" href="#">TRAIL</a>
+                                <a class="text-blue-500 hover:text-white" href="#trail">TRAIL</a>
                             </li>
                         </ul>
                     </nav>
@@ -54,6 +51,7 @@
         </header>
         <div class="hero-text">
             <h1>"A bicycle ride around the world begins with a single pedal stroke"</h1>
+           
         </div>
     </div>
     <div class="weather input">
@@ -62,12 +60,12 @@
         <input type="text" class="inputValue" placeholder="Search For A City">
         <input type="submit" value="Submit">
     </div>
-    <div class="weather display">
+    <div class="weather display" id="weather">
         <h3 class="name"></h3>
         <p class="desc"></p>
         <p class="temp"></p>
     </div>
-    <div class="container trail">
+    <div class="container trail" id="trail">
         <h4>Find your next trail</h4>
         <p></p>
     </div>
