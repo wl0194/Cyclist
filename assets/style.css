@@ -8,6 +8,11 @@
         height: 100%;
     }
     
+    .hidden {
+        font-size: 30px;
+        font-family:
+    }
+    
     .hero {
         background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("./images/cycling.jpeg");
         height: 90vh;
