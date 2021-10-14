@@ -9,8 +9,13 @@
     }
     
     .hidden {
-        font-size: 30px;
-        font-family:
+        font-size: 38px;
+        font-weight: 200;
+    }
+    
+    .flex {
+        font-size: 25px;
+        font-weight: 100;
     }
     
     .hero {
@@ -26,6 +31,7 @@
     .hero-text {
         font-size: 40px;
         font-family: 'Roboto', sans-serif;
+        text-align: center;
         position: absolute;
         width: 59%;
         top: 50%;
