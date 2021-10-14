@@ -59,10 +59,20 @@ body {
 
 .trail h4 {
     padding: 0px;
-    margin: 0px;
     font-weight: 300;
     font-size: 30px;
     display: flex;
     justify-content: center;
     color: rgb(0, 0, 0);
+}
+
+.trail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.trail-search {
+    border-bottom: #3B82F6 2px solid;
 }
