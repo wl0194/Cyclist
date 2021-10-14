@@ -70,8 +70,14 @@
         </div>
     </div>
     <div class="trail">
-        <h4>Find your next trail</h4>
-        <p></p>
+        <h4 class="mb-8">Find your next trail</h4>
+        <div class="trail-searchbar">
+            <input type="text" class="trail-search mr-6" name="trail-search" placeholder="Enter Zipcode">
+            <input type="submit" class="trail-submit bg-blue-500 py-1 px-3 rounded text-white" value="Search">
+        </div>
+        <div class="map">
+            
+        </div>
     </div>
 
 
@@ -80,7 +86,9 @@
 
 
 
-
+    <script async
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA6GWMtVQEzqw7uaSG5ecCMbya6VTwMeto&libraries=places&callback=initMap">
+    </script>
     <script src="assets/script.js "></script>
 </body>
 
