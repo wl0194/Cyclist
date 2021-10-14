@@ -1,4 +1,3 @@
-
 * {
     padding: 0;
     margin: 0;
@@ -7,6 +6,16 @@
 html,
 body {
     height: 100%;
+}
+
+.hidden {
+    font-size: 38px;
+    font-weight: 200;
+}
+
+.flex {
+    font-size: 25px;
+    font-weight: 100;
 }
 
 .hero {
