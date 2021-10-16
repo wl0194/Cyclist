@@ -20,15 +20,8 @@
             <div class="max-w-7xl mx-auto py-3 px-3 sm:px-6 lg:px-8">
                 <div class="flex items-center justify-between flex-wrap">
                     <div class="w-0 flex-1 flex items-center">
-                        <span class="flex p-2 rounded-lg bg-indigo-800">
 
-                            <svg class="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none"
-                                viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M11 5.882V19.24a1.76 1.76 0 01-3.417.592l-2.147-6.15M18 13a3 3 0 100-6M5.436 13.683A4.001 4.001 0 017 6h1.832c4.1 0 7.625-1.234 9.168-3v14c-1.543-1.766-5.067-3-9.168-3H7a3.988 3.988 0 01-1.564-.317z" />
-                            </svg>
-                        </span>
-                        <p class="ml-3 font-medium text-white truncate">
+                        <p class="text-white truncate">
                             <span class="hidden md:inline">
                                 CYCLIST
                             </span>
@@ -39,13 +32,10 @@
                     <nav>
                         <ul class="flex">
                             <li class="mr-6">
-                                <a class="text-blue-500 hover:text-white" href="#">ABOUT</a>
+                                <a class="text-white hover:text-blue-400" href="#weather">WEATHER</a>
                             </li>
                             <li class="mr-6">
-                                <a class="text-blue-500 hover:text-white" href="#">WEATHER</a>
-                            </li>
-                            <li class="mr-6">
-                                <a class="text-blue-500 hover:text-white" href="#">TRAIL</a>
+                                <a class="text-white hover:text-blue-400" href="#trail">TRAIL</a>
                             </li>
                         </ul>
                     </nav>
@@ -54,14 +44,15 @@
         </header>
         <div class="hero-text">
             <h1>"A bicycle ride around the world begins with a single pedal stroke"</h1>
+
         </div>
     </div>
-    <div class=weather>
+    <div class="container" id="weather">
         <div class="input">
             <h2>5 Day Weather</h2>
             <p>Checking weather is essential when it comes to cycling.<br>You can plan daily activities and clothing with a lot more accuracy here, today.</p>
             <input type="text" class="inputValue" placeholder="Search For A City">
-            <input type="submit" value="Submit">
+            <input type="submit" class="inputSubmit bg-blue-500 py-1 px-3 rounded text-white" value="Search">
         </div>
         <div class="display">
             <h3 class="name"></h3>
@@ -69,7 +60,7 @@
             <p class="temp"></p>
         </div>
     </div>
-    <div class="trail">
+    <div class="trail" id="trail">
         <h4 class="mb-8">Find your next trail</h4>
         <div class="trail-searchbar">
             <input type="text" class="trail-search mr-6" name="trail-search" placeholder="Enter Zipcode">
@@ -85,16 +76,18 @@
         <div id="map"></div>
     </div>
 
+    </div>
+    </div>
 
 
 
 
 
 
-    <script async
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA6GWMtVQEzqw7uaSG5ecCMbya6VTwMeto&libraries=places&callback=initMap">
+    <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA6GWMtVQEzqw7uaSG5ecCMbya6VTwMeto&libraries=places&callback=initMap">
     </script>
-    <script src="assets/script.js"></script>
-</body>
 
+    <script src="/assets/script.js"></script>
+    <script src="/assets/secondary.js"></script>
+</body>
 </html>
