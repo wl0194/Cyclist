@@ -98,3 +98,7 @@ body {
 .trail-search {
     border-bottom: #3B82F6 2px solid;
 }
+#map { 
+    width: 50vw;
+    height: 50vw;
+}
