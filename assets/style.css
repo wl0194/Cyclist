@@ -99,12 +99,7 @@ body {
     border-bottom: #3B82F6 2px solid;
 }
 
-/* API Styling */
 
-#map { 
-    width: 50vw;
-    height: 50vw;
-}
 #footer {
     display: flex;
     justify-content: space-around;
@@ -207,6 +202,14 @@ input:focus{
 
 .controls {
     border-bottom: #3B82F6 2px solid;
+}
+
+
+/* API Styling */
+
+#map { 
+    width: 50vw;
+    height: 50vw;
 }
 
 #description {
