@@ -41,7 +41,19 @@ body {
     color: #FFF;
     transform: translate(-50%, -50%);
 }
-
+.hero-text h1 {
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    text-align: center;
+    width: 59%;
+    top: 50%;
+    left: 50%;
+    color: #FFF;
+    transform: translate(-50%, -50%);
+    font-weight: normal;
+    font-style: italic;
+}
 .container {
     display: flex;
     justify-content: center;
@@ -123,15 +135,7 @@ footer p {
     height: 100%;
     padding: 28px 100px;
 }
-.form-container:after {
-    content: '';
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background-size: cover;
-}
+
 .contact-box {
     max-width: 850px;
     display: grid;
