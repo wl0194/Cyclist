@@ -39,10 +39,16 @@
                     <nav>
                         <ul class="flex">
                             <li class="mr-6">
+                                <a class="text-white hover:text-blue-400" href="#contact">HOME</a>
+                            </li>
+                            <li class="mr-6">
                                 <a class="text-white hover:text-blue-400" href="#weather">WEATHER</a>
                             </li>
                             <li class="mr-6">
                                 <a class="text-white hover:text-blue-400" href="#trail">TRAIL</a>
+                            </li>
+                            <li class="mr-6">
+                                <a class="text-white hover:text-blue-400" href="#contact">CONTACT</a>
                             </li>
                         </ul>
                     </nav>
@@ -89,7 +95,35 @@
         />
         <div id="map"></div>
 
+        <input id="pac-input" class="controls" type="text" placeholder="Search Box" />
+        <div id="map"></div>
     </div>
+    <div class="form-container">
+        <div class="contact-box">
+            <div class="left"></div>
+                <div class="right">
+                    <h5>Contact Us</h5>
+                    <input type="text" class="field" placeholder="Your Name">
+                    <input type="email" class="field" placeholder="Your Email">
+                    <input type="text" class="field" placeholder="Your Phone">
+                    <textarea class="field area" placeholder="Message"></textarea>
+                    <button class="btn">Send</button>
+                </div>
+            </div>
+        </div>
+        <div id="footer">
+            <footer>
+                <p> 2021 Cyclist, Inc. All rights reserved.</p>
+            </footer>
+        </div>
+
+
+        <script src="assets/script.js"></script>
+        <script src="assets/mapfunction.js"></script>
+        <script async
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA6GWMtVQEzqw7uaSG5ecCMbya6VTwMeto&callback=initAutocomplete&libraries=places&callback=initMap">
+            </script>
+        <script src="assets/secondary.js"></script>
 
 
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
@@ -102,4 +136,5 @@
     ></script>
     <script src="assets/secondary.js"></script>
 </body>
+
 </html>
