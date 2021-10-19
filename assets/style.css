@@ -194,6 +194,9 @@ h5:after {
 .btn:hover {
     background-color: #BCC0B2;
 }
+#app-container {
+  padding: 20px;
+}
 input:focus{
     outline: none;
 }
