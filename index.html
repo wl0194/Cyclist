@@ -6,15 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="assets/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap" rel="stylesheet">
-
+    <link rel="stylesheet" href="assets/style.css" />
     <!-- weather -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-    crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/d3bce829f3.js" crossorigin="anonymous"></script>
 
     <title>Cyclist</title>
@@ -40,6 +39,9 @@
                     <nav>
                         <ul class="flex">
                             <li class="mr-6">
+                                <a class="text-white hover:text-blue-400" href="#home">HOME</a>
+                            </li>
+                            <li class="mr-6">
                                 <a class="text-white hover:text-blue-400" href="#weather">WEATHER</a>
                                 <script src="https://cdn.lordicon.com/libs/mssddfmo/lord-icon-2.1.0.js"></script>
                                 <lord-icon
@@ -61,6 +63,9 @@
                                 style="width:100px;height:100px">
                                 </lord-icon>
                             </li>
+                            <li class="mr-6">
+                                <a class="text-white hover:text-blue-400" href="#contact">CONTACT</a>
+                            </li>
                         </ul>
                     </nav>
                 </div>
@@ -80,9 +85,11 @@
     <div class="container" id="weather">
         <div class="input">
             <h2>5 Day Weather</h2>
-            <p>Checking weather is essential when it comes to cycling.<br>You can plan daily activities and clothing with a lot more accuracy here, today.</p>
-            
+            <p>Checking weather is essential when it comes to cycling.<br>You can plan daily activities and clothing
+                with a lot more accuracy here, today.</p>
+
             <input type="text" class="card-body mr-6 searchInput" placeholder="Enter City Name">
+<<<<<<< HEAD
             <input type="submit" class="inputSubmit bg-blue-500 py-1 px-3 rounded text-white searchButton" value="Search">
             <script src="https://cdn.lordicon.com/libs/mssddfmo/lord-icon-2.1.0.js"></script>
 <lord-icon
@@ -91,21 +98,20 @@
     colors="primary:#121331,secondary:#08a88a"
     style="width:100px;height:100px">
 </lord-icon>
+=======
+            <input type="submit" class="inputSubmit bg-blue-500 py-1 px-3 rounded text-white searchButton"
+                value="Search">
+>>>>>>> ccbd38e42a65991ab2abc05563ac1ebb1350635b
             <ul class="list-group">
             </ul>
-            <div class="row">
-                <div class="fiveDayOne ">
+            
+                <div class="fiveDayOne text-white" >
                 </div>
     
-            </div>
+            
     
         </div>
 
-        <!-- <div class="display">
-            <h3 class="name"></h3>
-            <p class="desc"></p>
-            <p class="temp"></p>
-        </div> -->
     </div>
     <div class="trail" id="trail">
         <h4 class="mb-8">Find your next trail</h4>
@@ -123,8 +129,27 @@
       type="text"
       placeholder="Cycling Trails"
         />
-        <div id="map"></div>
 
+        <input id="pac-input" class="controls" type="text" placeholder="Search Box" />
+        <div id="map"></div>
+    </div>
+    <div class="form-container" id="contact">
+        <div class="contact-box">
+            <div class="left"></div>
+            <div class="right">
+                <h5>Contact Us</h5>
+                <input type="text" class="field" placeholder="Your Name">
+                <input type="email" class="field" placeholder="Your Email">
+                <input type="text" class="field" placeholder="Your Phone">
+                <textarea class="field area" placeholder="Message"></textarea>
+                <button class="btn">Send</button>
+            </div>
+        </div>
+    </div>
+    <div id="footer">
+        <footer>
+            <p> 2021 Cyclist, Inc. All rights reserved.</p>
+        </footer>
     </div>
 
 
@@ -132,9 +157,9 @@
     <script src="assets/script.js"></script>
     <script src="assets/mapfunction.js"></script>
     <script
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA6GWMtVQEzqw7uaSG5ecCMbya6VTwMeto&callback=initAutocomplete&libraries=places&v=weekly&channel=2"
-      async
-    ></script>
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA6GWMtVQEzqw7uaSG5ecCMbya6VTwMeto&callback=initAutocomplete&libraries=places&v=weekly&channel=2"
+        async></script>
     <script src="assets/secondary.js"></script>
 </body>
+
 </html>
