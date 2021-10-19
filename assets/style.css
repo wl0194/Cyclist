@@ -282,3 +282,20 @@ input:focus{
   #target {
     width: 345px;
   }
+/* weather */
+ /* 5 day forecast */ 
+ .fiveDayColor {
+    padding: 20px;
+    background-color: #BCC0B2;
+    color: white;
+    float: left;
+    margin: 10px;
+    border: 1px solid lightgray;
+   
+
+}
+.fiveDayColor p {
+    color: black;
+    padding: 10px ;
+    
+}
