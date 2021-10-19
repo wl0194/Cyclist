@@ -32,10 +32,16 @@
                     <nav>
                         <ul class="flex">
                             <li class="mr-6">
+                                <a class="text-white hover:text-blue-400" href="#contact">HOME</a>
+                            </li>
+                            <li class="mr-6">
                                 <a class="text-white hover:text-blue-400" href="#weather">WEATHER</a>
                             </li>
                             <li class="mr-6">
                                 <a class="text-white hover:text-blue-400" href="#trail">TRAIL</a>
+                            </li>
+                            <li class="mr-6">
+                                <a class="text-white hover:text-blue-400" href="#contact">CONTACT</a>
                             </li>
                         </ul>
                     </nav>
@@ -50,7 +56,8 @@
     <div class="container" id="weather">
         <div class="input">
             <h2>5 Day Weather</h2>
-            <p>Checking weather is essential when it comes to cycling.<br>You can plan daily activities and clothing with a lot more accuracy here, today.</p>
+            <p>Checking weather is essential when it comes to cycling.<br>You can plan daily activities and clothing
+                with a lot more accuracy here, today.</p>
             <input type="text" class="inputValue mr-6" placeholder="Search For A City">
             <input type="submit" class="inputSubmit bg-blue-500 py-1 px-3 rounded text-white" value="Search">
         </div>
@@ -66,27 +73,36 @@
             <input type="text" class="trail-search mr-6" name="trail-search" placeholder="Enter Zipcode">
             <input type="submit" class="trail-submit bg-blue-500 py-1 px-3 rounded text-white mb-6" value="Search">
         </div>
-       
-        <input
-      id="pac-input"
-      class="controls"
-      type="text"
-      placeholder="Search Box"
-    />
+
+        <input id="pac-input" class="controls" type="text" placeholder="Search Box" />
         <div id="map"></div>
     </div>
+    <div class="form-container">
+        <div class="contact-box">
+            <div class="left"></div>
+                <div class="right">
+                    <h5>Contact Us</h5>
+                    <input type="text" class="field" placeholder="Your Name">
+                    <input type="email" class="field" placeholder="Your Email">
+                    <input type="text" class="field" placeholder="Your Phone">
+                    <textarea class="field area" placeholder="Message"></textarea>
+                    <button class="btn">Send</button>
+                </div>
+            </div>
+        </div>
+        <div id="footer">
+            <footer>
+                <p> 2021 Cyclist, Inc. All rights reserved.</p>
+            </footer>
+        </div>
 
-    </div>
-    </div>
 
-
-
-
-    <script src="assets/script.js"></script>
-    <script src="assets/mapfunction.js"></script>
-    <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA6GWMtVQEzqw7uaSG5ecCMbya6VTwMeto&callback=initAutocomplete&libraries=places&callback=initMap">
-    </script>
-
-    <script src="assets/secondary.js"></script>
+        <script src="assets/script.js"></script>
+        <script src="assets/mapfunction.js"></script>
+        <script async
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA6GWMtVQEzqw7uaSG5ecCMbya6VTwMeto&callback=initAutocomplete&libraries=places&callback=initMap">
+            </script>
+        <script src="assets/secondary.js"></script>
 </body>
+
 </html>
