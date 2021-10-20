@@ -108,7 +108,14 @@ searchButton.on ("click", function () {
       })
 
     });
+    // function reset(cityName){
+    //   while (cityName.firstChild) {
+    //     cityName.removeChild(cityName.firstChild);
+    //   }
+    // }
   }
 });
+
+
 init()
 
