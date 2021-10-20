@@ -43,6 +43,20 @@ body {
     font-weight: normal;
     font-style: italic;
 }
+.scroll-btn {
+    font-size: 3rem;
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    border: none;
+    outline: none; 
+    color: #AE8B0F;
+}
+
+.scroll-btn:hover {
+    color: #8e710c;
+}
 .container {
     display: flex;
     justify-content: center;
