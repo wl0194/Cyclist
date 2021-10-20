@@ -70,25 +70,20 @@
                 value="Search">
             <ul class="list-group">
             </ul>
-            
-                <div class="fiveDayOne text-white" >
-                </div>
-    
-            
-    
+
+            <div class="fiveDayOne text-white">
+            </div>
+
+
+
         </div>
 
     </div>
     <div class="trail" id="trail">
         <h4 class="mb-8">Find your next trail</h4>
 
-    <div class="map-api">
-        <input
-      id="pac-input"
-      class="controls mb-6 mt-3"
-      type="text"
-      placeholder="Cycling Trails"
-        />
+        <div class="map-api">
+            <input id="pac-input" class="controls mb-6 mt-3" type="text" placeholder="Cycling Trails" />
 
         <div id="map"></div>
     </div>
@@ -99,11 +94,12 @@
             <div class="left"></div>
             <div class="right">
                 <h5>Contact Us</h5>
-                <input type="text" class="field" placeholder="Your Name">
-                <input type="email" class="field" placeholder="Your Email">
-                <input type="text" class="field" placeholder="Your Phone">
-                <textarea class="field area" placeholder="Message"></textarea>
+                <input type="text" class="field name" placeholder="Your Name">
+                <input type="text" class="field email" placeholder="Your Email">
+                <textarea class="field message" placeholder="Message"></textarea>
                 <button class="btn">Send</button>
+                <div class="center-container" id="app-container"></div>
+                <p>&#128522;</p>
             </div>
         </div>
     </div>
@@ -117,10 +113,11 @@
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="assets/script.js"></script>
     <script src="assets/mapfunction.js"></script>
+    <script src="assets/contact.js"></script>
     <script
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA6GWMtVQEzqw7uaSG5ecCMbya6VTwMeto&callback=initAutocomplete&libraries=places&v=weekly&channel=2"
         async></script>
-    <script src="assets/secondary.js"></script>
+        
 </body>
 
 </html>
