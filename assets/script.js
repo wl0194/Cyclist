@@ -52,7 +52,7 @@ searchButton.on ("click", function () {
       // list-group append 
       // $ for selectes
       var cityName = $ (".list-group").addClass("list-group-item");
-      cityName.append("<li>" + response.name + "</li>");
+      // cityName.append("<li>" + response.name + "</li>");
       // add to the cities 
       cities.push(response.name)
       localStorage.setItem("cities", JSON.stringify(cities));
@@ -114,7 +114,14 @@ searchButton.on ("click", function () {
       })
 
     });
+    // function reset(cityName){
+    //   while (cityName.firstChild) {
+    //     cityName.removeChild(cityName.firstChild);
+    //   }
+    // }
   }
 });
+
+
 init()
 
