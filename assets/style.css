@@ -36,12 +36,26 @@ body {
     position: absolute;
     text-align: center;
     width: 59%;
-    top: 50%;
+    top: 35%;
     left: 50%;
     color: #FFF;
     transform: translate(-50%, -50%);
     font-weight: normal;
     font-style: italic;
+}
+.scroll-btn {
+    font-size: 3rem;
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    border: none;
+    outline: none; 
+    color: #AE8B0F;
+}
+
+.scroll-btn:hover {
+    color: #8e710c;
 }
 .container {
     display: flex;
@@ -86,6 +100,7 @@ body {
     font-weight: 300;
     font-size: 30px;
     color: rgb(0, 0, 0);
+    margin: auto;
 }
 
 .trail {
@@ -94,6 +109,11 @@ body {
     align-items: center;
     justify-content: center;
     padding: 40px;
+}
+
+.trail-heading {
+    display: flex;
+    
 }
 
 .trail-search {
@@ -287,7 +307,7 @@ input:focus{
     padding: 20px;
     background-color: #BCC0B2;
     color: white;
-    float: left;
+    float: left;    
     margin: 10px;
     border: 1px solid lightgray;
 }
@@ -297,4 +317,9 @@ input:focus{
 }
 .list-group {
     padding: 50px;
+}
+
+.lord-icon-cyclist {
+    top: 350px;
+    left: 676px;
 }

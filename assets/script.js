@@ -50,15 +50,9 @@ searchButton.on ("click", function () {
     }).then(function (response) {
       console .log (response)
       // list-group append 
-      // $ for selectes
-      var cityName = $ (".list-group").addClass("list-group-item");
-      // cityName.append("<li>" + response.name + "</li>");
-      // add to the cities 
-      cities.push(response.name)
+   
       localStorage.setItem("cities", JSON.stringify(cities));
-      // Local storage
-      // var local = localStorage.setItem(keyCount, response.name);
-      // keyCount = keyCount + 1;
+    
       // Current Weather append 
       var currentCard = $(".currentCard").append("<div>").addClass("card-body");
       currentCard.empty();
