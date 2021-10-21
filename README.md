@@ -4,7 +4,7 @@ Cyclist
 
 ## Description 
 
-We want an app that will allow us to find local places to cycle. It will be able to check my location and show the local weather and information about cycling trails nearby. This allow me to save time planning my work out routine. 
+We want an app that will allow us to find local places to cycle. The users will be able to check their location and show the local weather and information about cycling trails nearby. This way the users to save time planning work out routine. 
 
 ## APIs (Third-party)
 
@@ -24,6 +24,9 @@ THEN I am presented with the city name, the date, an icon representation of weat
 WHEN I click on trail tab
 THEN I am presented with the choices of course/trail that the users can choose from
 Trail tab is done, when the user can see at least 2 trail buttons to choose from.
+
+## Demo
+![demo](./assets/images/demo.png)
 
 
 
