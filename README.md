@@ -2,9 +2,9 @@
 ## Title
 Cyclist
 
-## Description 
+## Description
 
-We want an app that will allow us to find local places to cycle. The users will be able to check their location and show the local weather and information about cycling trails nearby. This way the users to save time planning work out routine. 
+We want an app that will allow users to find local places to cycle. They will be able to check their  location and show the local weather and information about cycling trails nearby. This allows the users to save time planning work out routine. 
 
 ## APIs (Third-party)
 
