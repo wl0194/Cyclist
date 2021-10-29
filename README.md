@@ -27,7 +27,7 @@ Trail tab is done, when the user can see at least 2 trail buttons to choose from
 
 ## Demo
 ![demo](./assets/images/demo.png)
- (./assets/images/demo2.png)
+![demo](./assets/images/demo2.png)
 
 ## Links
 https://github.com/wl0194/Project1-
