@@ -1,6 +1,5 @@
 
-## Title
-Cyclist
+## Cyclist
 
 ## Description
 
@@ -14,24 +13,16 @@ We want an app that will allow users to find local places to cycle. They will be
  http://api.weatherbit.io/v2.0/current
 
 
-## Acceptance Criteria
-WHEN I open the webpage
-THEN I am presented with an image that describes the purpose
-WHEN I click on the weather tab
-THEN I am presented with current conditions for that city
-WHEN I view current weather conditions for that city
-THEN I am presented with the city name, the date, an icon representation of weather conditions, the temperature, the humidity and the wind speed
-WHEN I click on trail tab
-THEN I am presented with the choices of course/trail that the users can choose from
-Trail tab is done, when the user can see at least 2 trail buttons to choose from.
 
 ## Demo
 ![demo](./assets/images/demo.png)
 ![demo](./assets/images/demo2.png)
 
 ## Links
-https://github.com/wl0194/Project1-
-https://wl0194.github.io/Project1-/
+
+* [Github](https://github.com/wl0194)
+* [Live](https://wl0194.github.io/Cyclist/)
+
 
 
 
